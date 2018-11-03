@@ -13,13 +13,13 @@ while (1):
         print("Ok!You guess right!\n")
         break
     if int(c)<int(a):
-        print("Sorry ,it's small！You have %d chace"%b)
+        print("Sorry ,it's small！You have %d chance"%b)
     if int(c)>int(a):
         print("Sorry,it's big！You have %d chance"%b)
     if int(b)==0:
         print("-----------------------\n")
         print("Sorry,you havn't chance!\nI'm very sorry!\n")
         print("-----------------------\n")
-        print("Random:%d\n"%a)
+        print("Random number:%d\n"%a)
         break
 os.system("pause")
